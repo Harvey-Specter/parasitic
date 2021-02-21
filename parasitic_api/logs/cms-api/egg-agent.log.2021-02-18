@@ -1,0 +1,27 @@
+2021-02-13 00:00:01,956 INFO 35678 [egg-logrotator] agent logger reload: got log-reload message
+2021-02-13 11:20:55,151 ERROR 35678 nodejs.ClusterClientNoResponseError: client no response in 31993815ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 35678
+hostname: lihongdeMacBook-Air.local
+
+2021-02-18 09:47:44,278 INFO 4885 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/book/eggantd/2019-新版/cms-api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-02-18 09:47:44,288 INFO 4885 [egg:core] dump config after load, 5ms
+2021-02-18 09:47:44,351 INFO 4885 [egg-watcher] Start watching: ["/Users/lihong/book/eggantd/2019-新版/cms-api/app","/Users/lihong/book/eggantd/2019-新版/cms-api/config","/Users/lihong/book/eggantd/2019-新版/cms-api/mocks","/Users/lihong/book/eggantd/2019-新版/cms-api/mocks_proxy","/Users/lihong/book/eggantd/2019-新版/cms-api/app.js"]
+2021-02-18 09:47:44,351 INFO 4885 [egg-watcher] Start watching: "/Users/lihong/book/eggantd/2019-新版/cms-api/app"
+2021-02-18 09:47:44,351 INFO 4885 [egg-watcher] Start watching: "/Users/lihong/book/eggantd/2019-新版/cms-api/config"
+2021-02-18 09:47:44,351 INFO 4885 [egg-watcher] Start watching: "/Users/lihong/book/eggantd/2019-新版/cms-api/mocks"
+2021-02-18 09:47:44,356 INFO 4885 [egg-watcher] Start watching: "/Users/lihong/book/eggantd/2019-新版/cms-api/mocks_proxy"
+2021-02-18 09:47:44,356 INFO 4885 [egg-watcher] Start watching: "/Users/lihong/book/eggantd/2019-新版/cms-api/app.js"
+2021-02-18 09:47:44,356 INFO 4885 [egg-watcher:agent] watcher start success
+2021-02-18 09:47:44,374 INFO 4885 [egg:core] dump config after ready, 7ms
+2021-02-18 22:47:50,774 WARN 4885 [agent:development] reload worker because /Users/lihong/book/eggantd/2019-新版/cms-api/app/controller/base.js change
+2021-02-18 22:47:50,551 INFO 4885 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lihong/book/eggantd/2019-新版/cms-api/app/controller/base.js","stat":{"dev":16777220,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4142937,"size":1475,"blocks":8,"atimeMs":1613659654349.4893,"mtimeMs":1613659670469.4495,"ctimeMs":1613659670469.4495,"birthtimeMs":1566125534000,"atime":"2021-02-18T14:47:34.349Z","mtime":"2021-02-18T14:47:50.469Z","ctime":"2021-02-18T14:47:50.469Z","birthtime":"2019-08-18T10:52:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-02-18 22:47:59,510 WARN 4885 [agent:development] reload worker because /Users/lihong/book/eggantd/2019-新版/cms-api/app/controller/base.js change
+2021-02-18 22:47:59,309 INFO 4885 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lihong/book/eggantd/2019-新版/cms-api/app/controller/base.js","stat":{"dev":16777220,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4142937,"size":1479,"blocks":8,"atimeMs":1613659679296.2449,"mtimeMs":1613659679297.6267,"ctimeMs":1613659679297.6267,"birthtimeMs":1566125534000,"atime":"2021-02-18T14:47:59.296Z","mtime":"2021-02-18T14:47:59.298Z","ctime":"2021-02-18T14:47:59.298Z","birthtime":"2019-08-18T10:52:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-02-18 22:48:02,955 WARN 4885 [agent:development] reload worker because /Users/lihong/book/eggantd/2019-新版/cms-api/app/controller/base.js change
+2021-02-18 22:48:02,752 INFO 4885 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lihong/book/eggantd/2019-新版/cms-api/app/controller/base.js","stat":{"dev":16777220,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4142937,"size":1479,"blocks":8,"atimeMs":1613659682738.894,"mtimeMs":1613659682739.7605,"ctimeMs":1613659682739.7605,"birthtimeMs":1566125534000,"atime":"2021-02-18T14:48:02.739Z","mtime":"2021-02-18T14:48:02.740Z","ctime":"2021-02-18T14:48:02.740Z","birthtime":"2019-08-18T10:52:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-02-18 23:39:30,754 WARN 4885 [agent:development] reload worker because /Users/lihong/book/eggantd/2019-新版/cms-api/app/controller/base.js change
+2021-02-18 23:39:30,547 INFO 4885 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lihong/book/eggantd/2019-新版/cms-api/app/controller/base.js","stat":{"dev":16777220,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4142937,"size":1531,"blocks":8,"atimeMs":1613659696192.6672,"mtimeMs":1613662770482.5154,"ctimeMs":1613662770482.5154,"birthtimeMs":1566125534000,"atime":"2021-02-18T14:48:16.193Z","mtime":"2021-02-18T15:39:30.483Z","ctime":"2021-02-18T15:39:30.483Z","birthtime":"2019-08-18T10:52:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}

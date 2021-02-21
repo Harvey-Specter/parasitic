@@ -1,0 +1,165 @@
+2021-02-19 04:30:01,442 INFO 4885 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86398570ms at 2021-02-20 04:30:00.012
+2021-02-19 04:30:01,438 INFO 6925 [Job#1613680201428741461006376511] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-02-19 04:30:01,447 INFO 6925 [Job#1613680201428741461006376511] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 8ms. 
+2021-02-19 10:46:05,654 INFO 9552 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:46:05,654 INFO 9552 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:46:05,654 INFO 9552 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:46:18,463 INFO 9555 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:46:18,463 INFO 9555 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:46:18,463 INFO 9555 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:59:49,236 INFO 9597 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:59:49,236 INFO 9597 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:59:49,236 INFO 9597 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:01:01,106 INFO 9601 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:01:01,106 INFO 9601 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:01:01,106 INFO 9601 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:07:07,365 INFO 9615 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:07:07,365 INFO 9615 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:07:07,365 INFO 9615 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:07:23,249 INFO 9616 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:07:23,249 INFO 9616 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:07:23,249 INFO 9616 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:07:34,079 INFO 9624 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:07:34,079 INFO 9624 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:07:34,079 INFO 9624 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:07:34,287 INFO 9623 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62545716ms at 2021-02-20 04:30:00.003
+2021-02-19 11:07:34,287 INFO 9623 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46345713ms at 2021-02-20 00:00:00.000
+2021-02-19 11:07:34,287 INFO 9623 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46346713ms at 2021-02-20 00:00:01.000
+2021-02-19 11:11:12,533 INFO 9628 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:11:12,533 INFO 9628 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:11:12,533 INFO 9628 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:11:14,580 INFO 9629 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:11:14,580 INFO 9629 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:11:14,580 INFO 9629 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:17:30,309 INFO 9642 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:17:30,309 INFO 9642 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:17:30,309 INFO 9642 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:17:30,676 INFO 9641 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61949327ms at 2021-02-20 04:30:00.003
+2021-02-19 11:17:30,676 INFO 9641 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45749324ms at 2021-02-20 00:00:00.000
+2021-02-19 11:17:30,676 INFO 9641 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45750324ms at 2021-02-20 00:00:01.000
+2021-02-19 11:20:47,331 INFO 9659 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:20:47,331 INFO 9659 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:20:47,331 INFO 9659 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:21:38,520 INFO 9663 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:21:38,520 INFO 9663 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:21:38,520 INFO 9663 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:24:22,969 INFO 9686 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:24:22,969 INFO 9686 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:24:22,969 INFO 9686 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:24:23,294 INFO 9685 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61536708ms at 2021-02-20 04:30:00.002
+2021-02-19 11:24:23,295 INFO 9685 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45336706ms at 2021-02-20 00:00:00.001
+2021-02-19 11:24:23,295 INFO 9685 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45337705ms at 2021-02-20 00:00:01.000
+2021-02-19 11:26:47,807 INFO 9700 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:26:47,807 INFO 9700 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:26:47,807 INFO 9700 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:28:05,461 INFO 9704 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:28:05,461 INFO 9704 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:28:05,461 INFO 9704 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:32:20,728 INFO 9710 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:32:20,728 INFO 9710 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:32:20,728 INFO 9710 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:32:55,083 INFO 9711 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:32:55,083 INFO 9711 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:32:55,083 INFO 9711 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:34:25,663 INFO 9717 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:34:25,663 INFO 9717 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:34:25,663 INFO 9717 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:37:51,386 INFO 9724 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:37:51,387 INFO 9724 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:37:51,387 INFO 9724 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:51:07,159 INFO 9749 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:51:07,159 INFO 9749 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:51:07,160 INFO 9749 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:52:16,527 INFO 9755 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:52:16,527 INFO 9755 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:52:16,527 INFO 9755 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:52:32,334 INFO 9758 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:52:32,334 INFO 9758 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:52:32,334 INFO 9758 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:52:47,560 INFO 9760 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:52:47,560 INFO 9760 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:52:47,560 INFO 9760 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:52:58,814 INFO 9763 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:52:58,814 INFO 9763 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:52:58,814 INFO 9763 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:52:59,963 INFO 9764 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:52:59,963 INFO 9764 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:52:59,963 INFO 9764 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:53:51,923 INFO 9767 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:53:51,923 INFO 9767 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:53:51,923 INFO 9767 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:54:23,833 INFO 9770 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:54:23,833 INFO 9770 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:54:23,833 INFO 9770 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:54:59,806 INFO 9773 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:54:59,806 INFO 9773 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:54:59,806 INFO 9773 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:55:19,117 INFO 9774 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:55:19,117 INFO 9774 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:55:19,117 INFO 9774 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:56:23,271 INFO 9778 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:56:23,271 INFO 9778 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:56:23,271 INFO 9778 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:56:27,442 INFO 9779 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:56:27,442 INFO 9779 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:56:27,442 INFO 9779 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:57:23,317 INFO 9782 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:57:23,317 INFO 9782 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:57:23,317 INFO 9782 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:57:36,775 INFO 9784 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:57:36,775 INFO 9784 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:57:36,775 INFO 9784 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:59:07,186 INFO 9791 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:59:07,186 INFO 9791 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:59:07,186 INFO 9791 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 11:59:21,399 INFO 9793 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 11:59:21,399 INFO 9793 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 11:59:21,399 INFO 9793 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 12:04:14,217 INFO 9805 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 12:04:14,217 INFO 9805 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 12:04:14,217 INFO 9805 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 12:08:29,191 INFO 9840 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 12:08:29,191 INFO 9840 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 12:08:29,191 INFO 9840 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 12:08:41,028 INFO 9841 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 12:08:41,028 INFO 9841 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 12:08:41,028 INFO 9841 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 14:32:50,306 INFO 10002 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 14:32:50,306 INFO 10002 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 14:32:50,306 INFO 10002 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 14:32:54,142 INFO 10006 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 14:32:54,142 INFO 10006 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 14:32:54,142 INFO 10006 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 14:34:45,712 INFO 10012 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 14:34:45,712 INFO 10012 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 14:34:45,712 INFO 10012 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 14:35:17,519 INFO 10014 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 14:35:17,519 INFO 10014 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 14:35:17,519 INFO 10014 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 14:35:30,062 INFO 10016 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 14:35:30,062 INFO 10016 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 14:35:30,062 INFO 10016 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 14:36:06,383 INFO 10022 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 14:36:06,383 INFO 10022 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 14:36:06,383 INFO 10022 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 14:36:31,251 INFO 10024 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 14:36:31,251 INFO 10024 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 14:36:31,251 INFO 10024 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 14:42:20,159 INFO 10036 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 14:42:20,159 INFO 10036 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-19 14:42:20,159 INFO 10036 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-20 08:37:39,880 INFO 14293 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 71540123ms at 2021-02-21 04:30:00.003
+2021-02-20 08:37:39,881 INFO 14293 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 55340120ms at 2021-02-21 00:00:00.001
+2021-02-20 08:37:39,881 INFO 14293 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 55341119ms at 2021-02-21 00:00:01.000
+2021-02-20 08:37:39,420 INFO 14294 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-20 08:37:39,420 INFO 14294 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-20 08:37:39,420 INFO 14294 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-20 09:51:04,191 INFO 14401 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-20 09:51:04,191 INFO 14401 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-20 09:51:04,191 INFO 14401 [egg-schedule]: register schedule /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-21 00:00:01,577 INFO 14401 [Job#1613836801498230742976945741] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-02-21 00:00:01,623 INFO 14401 [Job#1613836801498230742976945741] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 36ms. 
+2021-02-21 00:00:01,534 INFO 14293 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86398482ms at 2021-02-22 00:00:00.015
+2021-02-21 00:00:02,462 INFO 14401 [Job#1613836802458230743527966051] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-02-21 00:00:02,469 INFO 14401 [Job#1613836802458230743527966051] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 7ms. 
+2021-02-21 00:00:02,461 INFO 14293 [Timer] /Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86398542ms at 2021-02-22 00:00:01.003

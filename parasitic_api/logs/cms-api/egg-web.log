@@ -1,0 +1,5 @@
+2021-02-21 00:00:02,477 INFO 14401 [egg-logrotator] app logger reload: got log-reload message
+2021-02-21 04:30:01,889 INFO 14401 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/4b/zjx3wq3d7nvdkd0dbknhvwnh0000gn/T/egg-multipart-tmp/cms-api"
+2021-02-21 04:30:01,895 INFO 14401 [-/127.0.0.1/-/8ms SCHEDULE /__schedule?path=/Users/lihong/book/eggantd/2019-新版/cms-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-02-21 10:30:02,117 WARN 14401 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-02-21 10:30:02,124 WARN 14401 [ClusterClient:Watcher] follower closed, and try to init it again
