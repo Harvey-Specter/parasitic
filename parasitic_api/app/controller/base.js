@@ -13,7 +13,7 @@ class BaseController extends Controller {
     //let {pageNum,pageSize,...where} =  ctx.query;
     let {current, pageSize, sorter, ...filter} =  ctx.query;
     let currentPageNum = isNaN(current)?1:parseInt(current);
-    let currentPageSize = isNaN(pageSize)?3:parseInt(pageSize);
+    let currentPageSize = isNaN(pageSize)?1000:parseInt(pageSize);
     let result = await service[this.entity].select(currentPageNum,currentPageSize,sorter,filter);
     this.success(result);
   }
@@ -21,7 +21,7 @@ class BaseController extends Controller {
     const {ctx,app,service} = this;
     let user = ctx.request.body;//{username,password,email}
     let result = await service[this.entity].create(user);
-    result.affectedRows>0?this.success('创建成功'):this.error('创建失败');
+    result.affectedRows>0?this.success(''):this.error('创建失败');
   }
   async update(){
     const {ctx,app,service} = this;
@@ -29,7 +29,7 @@ class BaseController extends Controller {
     let user = ctx.request.body;//{username,password,email}
     user.id = id;
     let result = await service[this.entity].update(user);
-    result.affectedRows>0?this.success('更新成功'):this.error('更新失败');
+    result.affectedRows>0?this.success(''):this.error('更新失败');
   }
   async destroy(){
     const {ctx,app,service} = this;
@@ -39,7 +39,7 @@ class BaseController extends Controller {
         ids=[id]
     }
     let result = await service[this.entity].destroy(ids);
-    result.affectedRows>0?this.success('删除成功'):this.error('删除失败');
+    result.affectedRows>0?this.success(''):this.error('删除失败');
   }
 }
 

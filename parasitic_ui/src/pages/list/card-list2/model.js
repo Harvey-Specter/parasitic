@@ -7,9 +7,10 @@ const Model = {
   effects: {
     *fetch({ payload }, { call, put }) {
       const response = yield call(queryFakeList, payload);
+      console.log('response===fetch=====',response)
       yield put({
         type: 'queryList',
-        payload: Array.isArray(response) ? response : [],
+        payload: Array.isArray(response.data) ? response.data : [],
       });
     },
     *appendFetch({ payload }, { call, put }) {
@@ -28,15 +29,22 @@ const Model = {
       } else {
         callback = addFakeList;
       }
-      console.info('callback====',callback)
+      console.info('callback====',callback);
       const response = yield call(callback, payload); // post
 
-
       console.info('response====',response)
-      yield put({
-        type: 'queryList',
-        payload: response,
-      });
+      if(response.success){
+        const response = yield call(queryFakeList, payload);
+        console.log('submit===fetch=====',response)
+        yield put({
+          type: 'queryList',
+          payload: Array.isArray(response.data) ? response.data : [],
+        });
+      }
+      // yield put({
+      //   type: 'queryList',
+      //   payload: response,
+      // });
     },
   },
   reducers: {

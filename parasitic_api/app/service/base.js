@@ -12,14 +12,19 @@ class BaseService extends Service{
      }); */
      let whereString = ' ';
      //let fields = Object.keys(where['filter']);//[username,email]
-
-     let fields=JSON.parse(where['filter']); 
-     for(let i=0;i<fields.length;i++){
-          whereString += (`AND ${fields[i]} like '%${where[fields[i]]}%'`)
+     if(where['filter']){
+        let fields=JSON.parse(where['filter']); 
+        for(let i=0;i<fields.length;i++){
+             whereString += (`AND ${fields[i]} like '%${where[fields[i]]}%'`)
+        }
      }
-     let orderString = ' ';
+     
+     let orderString = ' ' ,orderField='';
      //let orderField =  Object.keys(sorter);
-     let orderField=JSON.parse(sorter); 
+     if(sorter){
+        orderField=JSON.parse(sorter); 
+     }
+     
 
      if(orderField.length>0){
 

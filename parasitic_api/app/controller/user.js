@@ -3,7 +3,7 @@ const {sign} = require('jsonwebtoken');
 const BaseController = require('./base');
 class UserController extends BaseController {
    constructor(...args){
-    console.info('UserController args-===',...args)
+     //console.info('UserController args-===',...args)
      super(...args);
      this.entity = 'user';
    }
@@ -74,5 +74,4 @@ WHERE role_user.user_id =?`,[user.id]);
      }
    }
 }
-
 module.exports = UserController;

@@ -1,5 +1,5 @@
 import { PlusOutlined,DownOutlined ,CheckCircleOutlined} from '@ant-design/icons';
-import { Tag,Menu,Button, Card, List, Typography,Dropdown } from 'antd';
+import { Tag,Menu,Button, Card, List, Typography,Dropdown ,message} from 'antd';
 import { findDOMNode } from 'react-dom';
 import React, { useRef, useState, useEffect } from 'react';
 import { PageContainer } from '@ant-design/pro-layout';
@@ -108,19 +108,36 @@ export const CardList = (props) => {
   };
 
   const handleSubmit = (values) => {
-    console.info('ca====',values)
-    const id = current ? current.id : '';
+    console.info('ca====',values);//return ;
+    //const id = current ? current.id : '';
     setAddBtnblur();
     setDone(true);
     dispatch({
       type: 'listAndcardList2/submit',
-      payload: {
-        id,
-        ...values,
-      },
+      // payload: {id, ...values,},
+      payload : values,
     });
   };
-
+  
+  /** 
+  const handleUpdate = async (fields) => {
+    const hide = message.loading('正在配置');
+    console.log('handleUpdate====',fields)
+    try {
+      await updateRule({
+        name: fields.name,
+        remark: fields.remark,
+        //key: fields.key,
+      });
+      hide();
+      message.success('配置成功');
+      return true;
+    } catch (error) {
+      hide();
+      message.error('配置失败请重试！');
+      return false;
+    }
+  };**/
   
 
   return (
@@ -159,7 +176,7 @@ actions={[<a key="option1" key="edit"
                     <Card.Meta
                       title={
                         <span>
-                      <a>{item.title}</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                      <a>{item.name}</a> &nbsp;&nbsp;&nbsp;&nbsp;
                       <Tag style={{float:'right'}}
                       icon={<CheckCircleOutlined />} color="success">运行中</Tag></span>
                     }
@@ -170,7 +187,7 @@ actions={[<a key="option1" key="edit"
                             rows: 3,
                           }}
                         >
-                          {item.description}
+                          {item.remark}
                         </Paragraph>
                       }
                     />
@@ -196,17 +213,19 @@ actions={[<a key="option1" key="edit"
     </PageContainer>
         <UpdateForm
           onSubmit={async (value) => {
-            const success = await handleUpdate(value);
+            const success = await handleSubmit(value);
+            console.log('success=====',success)
 
-            if (success) {
+            //if (success) {
               handleUpdateModalVisible(false);
               setStepFormValues({});
 
-              if (addBtn.current) {
-                addBtn.current.reload();
-              }
-            }
-          }}
+              // if (addBtn.current) {
+              //   addBtn.current.reload();
+              // }
+            //}
+          }
+        }
           onCancel={() => {
             handleUpdateModalVisible(false);
             setStepFormValues({});

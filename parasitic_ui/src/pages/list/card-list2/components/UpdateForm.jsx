@@ -24,13 +24,10 @@ const UpdateForm = (props) => {
   const blockContent='CA服务可以为组织用户创建身份数字证书和MSP,一般部署Peer节点或Order服务之前需要先用CA服务为它们创建MSP';
   const [formVals, setFormVals] = useState({
     name: props.values.name,
-    desc: props.values.desc,
-    key: props.values.key,
-    target: '0',
-    template: '0',
-    type: '1',
-    time: '',
-    frequency: 'month',
+    createType: props.values.createType,
+    enroll_id : props.values.enroll_id,
+    secret : props.values.secret,
+    remark : props.values.remark,
   });
   const { value } = useState();
   const [currentStep, setCurrentStep] = useState(0);
@@ -74,7 +71,7 @@ const UpdateForm = (props) => {
           <Input placeholder="请输入CA名称,可以使用中文和空格" />
         </FormItem>
         <FormItem
-          name="name"
+          name="enroll_id"
           label="管理员ID"
           rules={[
             {
@@ -87,7 +84,7 @@ const UpdateForm = (props) => {
         </FormItem>
 
         <FormItem
-          name="name"
+          name="secret"
           label="管理员密码"
           rules={[
             {
@@ -98,13 +95,22 @@ const UpdateForm = (props) => {
         >
           <Input placeholder="请输入CA管理员密码" />
         </FormItem>
+        <FormItem
+          name="remark"
+          label="备注"
+          rules={[
+            {
+              required: true,
+              message: '请输入至少3个字符的备注！',
+              min: 3,
+            },
+          ]}
+        >
+          <TextArea rows={4} placeholder="请输入至少五个字符" />
+        </FormItem>
+          <FormItem  name="extension" label="高级选项">
+          <Checkbox.Group name="extension" options={checkOptions} style={{ width: '60%' }}   onChange={selectOption} />    
 
-          <FormItem name="type" label="高级选项">
-          <Checkbox defaultChecked={false}  > 数据库和复制组 </Checkbox>
-          <br />
-          <Checkbox   > 资源分配 </Checkbox>
-          <br />
-          <Checkbox   > 硬件安全模块(HSM) </Checkbox>
           </FormItem>
         </>
       );
@@ -113,33 +119,7 @@ const UpdateForm = (props) => {
     if (currentStep === 2) {
       return (
         <>
-          <FormItem name="time" label="开始时间"
-            rules={[
-              {
-                required: true,
-                message: '请选择开始时间！',
-              },
-            ]}
-          >
-            <DatePicker
-              style={{
-                width: '100%',
-              }}
-              showTime
-              format="YYYY-MM-DD HH:mm:ss"
-              placeholder="选择开始时间"
-            />
-          </FormItem>
-          <FormItem name="frequency" label="调度周期">
-            <Select
-              style={{
-                width: '100%',
-              }}
-            >
-              <Option value="month">月</Option>
-              <Option value="week">周</Option>
-            </Select>
-          </FormItem>
+          总结
         </>
       );
     }
@@ -148,7 +128,7 @@ const UpdateForm = (props) => {
       <><Paragraph>
         <pre>{blockContent}</pre></Paragraph>
         
-        <FormItem name = "createType" label="新建方式" 
+        <FormItem name = "create_type" label="新建方式" 
         rules={[
           {
             required: true,
@@ -172,6 +152,15 @@ const UpdateForm = (props) => {
     );
   };
 
+  const checkOptions = [
+    { label: '数据库和复制组', value: '1' },
+    { label: '资源分配', value: '2' },
+    { label: '硬件安全模块(HSM)', value: '3' },
+  ];
+
+  const selectOption=()=>{
+
+  }
   const renderFooter = () => {
     if (currentStep === 1) {
       return (
@@ -249,12 +238,16 @@ const UpdateForm = (props) => {
         {...formLayout}
         form={form}
         initialValues={{
-          target: formVals.target,
-          template: formVals.template,
-          type: formVals.type,
-          frequency: formVals.frequency,
+
           name: formVals.name,
-          desc: formVals.desc,
+          createType: formVals.createType,
+          enroll_id : formVals.enroll_id,
+          secret : formVals.secret,
+          remark : formVals.remark,
+          dbset: formVals.dbset,
+          res : formVals.res,
+          hsm : formVals.hsm,
+          
         }}
       >
         {renderContent()}

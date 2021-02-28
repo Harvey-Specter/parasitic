@@ -6,6 +6,7 @@ module.exports = app => {
   router.post('/api/signup', controller.user.signup);
   router.post('/api/signin', controller.user.signin);
 
+  router.resources('user','/api/ca',controller.ca);
   router.resources('user','/api/user',controller.user);
   router.resources('role','/api/role',controller.role);
   router.resources('resource','/api/resource',controller.resource);

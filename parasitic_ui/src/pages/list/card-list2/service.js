@@ -1,7 +1,7 @@
 import request from 'umi-request';
 export async function queryFakeList(params) {
   console.info('params===cc22=',params)
-  return request('/api/fake_list', {
+  return request('/api/ca', {
     params,
   });
 }
@@ -17,12 +17,13 @@ export async function removeFakeList(params) {
 }
 export async function addFakeList(params) {
   const { count = 5, ...restParams } = params;
-  return request('/api/fake_list', {
+  return request('/api/ca', {
     method: 'POST',
     params: {
       count,
     },
-    data: { ...restParams, method: 'post' },
+    data: restParams
+    //data: { ...restParams, method: 'post' },
   });
 }
 export async function updateFakeList(params) {
