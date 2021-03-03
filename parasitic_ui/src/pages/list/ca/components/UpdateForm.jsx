@@ -93,7 +93,7 @@ const UpdateForm = (props) => {
             },
           ]}
         >
-          <Input placeholder="请输入CA管理员密码" />
+          <Input.Password placeholder="请输入CA管理员密码" />
         </FormItem>
         <FormItem
           name="remark"
@@ -128,7 +128,7 @@ const UpdateForm = (props) => {
       <><Paragraph>
         <pre>{blockContent}</pre></Paragraph>
         
-        <FormItem name = "createType" label="新建方式" 
+        <FormItem name = "create_type" label="新建方式" 
         rules={[
           {
             required: true,

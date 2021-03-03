@@ -1,6 +1,6 @@
 import { addFakeList, queryFakeList, removeFakeList, updateFakeList} from './service';
 const Model = {
-  namespace: 'listAndcardList2',
+  namespace: 'caList',
   state: {
     list: [],
   },

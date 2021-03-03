@@ -10,7 +10,7 @@ import styles from './style.less';
 import { history } from 'umi';
 const { Paragraph } = Typography;
 
-export const CardList = (props) => {
+export const OrgList = (props) => {
 
   const MoreBtn = ({ item }) => (
     <Dropdown
@@ -30,7 +30,7 @@ export const CardList = (props) => {
   const {
     loading,
     dispatch,
-    listAndcardList2: { list },
+    caList: { list },
   } = props;
   const [done, setDone] = useState(false);
   const [visible, setVisible] = useState(false);
@@ -44,45 +44,24 @@ export const CardList = (props) => {
         段落示意：蚂蚁金服务设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，
         提供跨越设计与开发的体验解决方案。
       </p>
-      <div className={styles.contentLink}>
-        <a>
-          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/MjEImQtenlyueSmVEfUD.svg" />{' '}
-          快速开始
-        </a>
-        <a>
-          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/NbuDUAuBlIApFuDvWiND.svg" />{' '}
-          产品简介
-        </a>
-        <a>
-          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/ohOEPSYdDTNnyMbGuyLb.svg" />{' '}
-          产品文档
-        </a>
-      </div>
+     
     </div>
   );
   
   const extraContent = (
     <div className={styles.extraImg}>
-      <img
-        alt="这是一个标题"
-        src="https://gw.alipayobjects.com/zos/rmsportal/RzwpdLnhmvDJToTdfDPe.png"
-      />
+    
     </div>
   );
   const nullData = {};
   useEffect(() => {
     dispatch({
-      type: 'listAndcardList2/fetch',
+      type: 'caList/fetch',
       payload: {
         count: 6,
       },
     });
   }, [1]);
-
-  const showModal = () => {
-    setVisible(true);
-    setCurrent(undefined);
-  };
 
   const showEditModal = (item) => {
     setVisible(true);
@@ -118,36 +97,15 @@ export const CardList = (props) => {
     setAddBtnblur();
     setDone(true);
     dispatch({
-      type: 'listAndcardList2/submit',
+      type: 'caList/submit',
       // payload: {id, ...values,},
       payload : values,
     });
   };
-  
-  /** 
-  const handleUpdate = async (fields) => {
-    const hide = message.loading('正在配置');
-    console.log('handleUpdate====',fields)
-    try {
-      await updateRule({
-        name: fields.name,
-        remark: fields.remark,
-        //key: fields.key,
-      });
-      hide();
-      message.success('配置成功');
-      return true;
-    } catch (error) {
-      hide();
-      message.error('配置失败请重试！');
-      return false;
-    }
-  };**/
-  
 
   return (
     <div>
-    <PageContainer content={content} extraContent={extraContent}>
+    <PageContainer content={content}>
       <div className={styles.cardList}>
         <List
           rowKey="id"
@@ -171,7 +129,7 @@ export const CardList = (props) => {
                     hoverable
                     className={styles.card}
 
-actions={[<a key="option1" key="edit"
+   actions={[<a key="option1" key="edit"
                       onClick={(e) => {
                         e.preventDefault();
                         showEditModal(item);
@@ -211,7 +169,7 @@ actions={[<a key="option1" key="edit"
                   handleUpdateModalVisible(true);
             }}
               ref={addBtn} >
-                  <PlusOutlined /> 创建CA服务
+                  <PlusOutlined /> 新建CA服务
                 </Button>
               </List.Item>
             );
@@ -254,7 +212,7 @@ actions={[<a key="option1" key="edit"
   );
 }
 
-export default connect(({ listAndcardList2, loading }) => ({
-  listAndcardList2,
-  loading: loading.models.listAndcardList2,
-}))(CardList);
+export default connect(({ caList, loading }) => ({
+  caList,
+  loading: loading.models.caList,
+}))(OrgList);

@@ -53,4 +53,5 @@ export default {
   'menu.list.user': '用户',
   'menu.list.card-list2': 'CA',
   'menu.list.causer':'CA用户',
+  'menu.list.org':'组织',
 };

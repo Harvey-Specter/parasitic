@@ -181,6 +181,13 @@ export default defineConfig({
                   component: './list/causer/[caid]',
                 },
                 {
+                  hideInMenu:false,
+                  name: 'org',
+                  icon: 'smile',
+                  path: '/list/org',
+                  component: './list/org',
+                },
+                {
                   name: 'table-list',
                   icon: 'smile',
                   path: '/list/table-list',
