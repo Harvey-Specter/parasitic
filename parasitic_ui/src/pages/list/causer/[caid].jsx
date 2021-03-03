@@ -1,4 +1,4 @@
-import { DownOutlined, PlusOutlined } from '@ant-design/icons';
+import { DownOutlined, PlusOutlined,IssuesCloseOutlined } from '@ant-design/icons';
 import { Menu,Button, Divider, message, Input, Drawer ,Dropdown,Modal} from 'antd';
 import React, { useState, useRef } from 'react';
 import { PageContainer, FooterToolbar } from '@ant-design/pro-layout';
@@ -6,7 +6,8 @@ import ProTable from '@ant-design/pro-table';
 import ProDescriptions from '@ant-design/pro-descriptions';
 import CreateForm from './components/CreateForm';
 import UpdateForm from './components/UpdateForm';
-import { queryUser, updateUser, addUser, removeUser ,cancelUser} from './service';
+import styles from './style.less';
+import { queryCaUser, updateUser, addCaUser, removeUser ,cancelUser} from './service';
 /**
  * 添加节点
  * @param fields
@@ -14,9 +15,9 @@ import { queryUser, updateUser, addUser, removeUser ,cancelUser} from './service
 
 const handleAdd = async (fields) => {
   const hide = message.loading('正在添加');
-
+  console.log('fields=====',fields) ;  //return false;
   try {
-    await addUser({ ...fields });
+    await addCaUser({ ...fields });
     hide();
     message.success('添加成功');
     return true;
@@ -91,8 +92,41 @@ const handleCancel = async (selectedRows) => {
   }
 };
 
-const TableList = () => {
-  const [createModalVisible, handleModalVisible] = useState(false);
+const TableList = (props) => {
+  console.log('param===caid=====', props.match.params.caid);
+  const caid = props.match.params.caid;
+  const content = (
+    <div className={styles.pageHeaderContent}>
+      <p>
+        段落示意：蚂蚁金服务设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，
+        提供跨越设计与开发的体验解决方案。
+      </p>
+      <div className={styles.contentLink}>
+        <a>
+          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/MjEImQtenlyueSmVEfUD.svg" />{' '}
+          快速开始
+        </a>
+        <a>
+          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/NbuDUAuBlIApFuDvWiND.svg" />{' '}
+          产品简介
+        </a>
+        <a>
+          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/ohOEPSYdDTNnyMbGuyLb.svg" />{' '}
+          产品文档
+        </a>
+      </div>
+    </div>
+  );
+  
+  const extraContent = (
+    <div className={styles.extraImg}>
+      <img
+        alt="这是一个标题"
+        src="https://gw.alipayobjects.com/zos/rmsportal/RzwpdLnhmvDJToTdfDPe.png"
+      />
+    </div>
+  );
+  
   const deleteItem = async (delFlag,selectedRowsState) => {
     if(delFlag=='1')await handleRemove(selectedRowsState);
     else if(delFlag=='0')await handleCancel(selectedRowsState);
@@ -141,20 +175,22 @@ const TableList = () => {
   const [title, setTitle] = useState('新建用户');
   const [updateModalVisible, handleUpdateModalVisible] = useState(false);
   const [stepFormValues, setStepFormValues] = useState({});
+  //const [createFormValues, setCreateFormValues] = useState({caid:caid});
+  const [createModalVisible, handleModalVisible] = useState(false);
   
   const actionRef = useRef();
   const [row, setRow] = useState();
   const [selectedRowsState, setSelectedRows] = useState([]);
   const columns = [
     {
-      title: '用户名',
-      dataIndex: 'name',
-      tip: '用户名称是唯一的 key',
+      title: 'Enroll ID',
+      dataIndex: 'enroll_id',
+      tip: 'enroll_id 称是CA用户唯一的 key',
       formItemProps: {
         rules: [
           {
             required: true,
-            message: '规则名称为必填项',
+            message: 'Enroll ID为必填项',
           },
         ],
       },
@@ -163,37 +199,75 @@ const TableList = () => {
       },
     },
     {
-      title: '邮箱',
-      dataIndex: 'email',
+      title: '密码',
+      dataIndex: 'secret',
+      //hideInForm: true,
+      hideInTable: true,
       formItemProps: {
         rules: [
           {
             required: true,
-            message: '邮箱为必填项',
+            message: '密码为必填项',
+          },
+        ],
+      },
+      valueType: 'password',
+    },
+    {
+      title: '显示名',
+      dataIndex: 'name',
+      //tip: 'enroll_id 称是CA用户唯一的 key',
+      // formItemProps: {
+      //   rules: [
+      //     {
+      //       required: true,
+      //       message: 'Enroll ID为必填项',
+      //     },
+      //   ],
+      // },
+      // render: (dom, entity) => {
+      //   return <a onClick={() => setRow(entity)}>{dom}</a>;
+      // },
+    },
+    {
+      title: '类型',
+      dataIndex: 'type',
+      valueEnum: {
+        'admin': {
+          text: 'admin',
+        },
+        'client': {
+          text: 'client',
+        },
+        'peer': {
+          text: 'peer',
+        }
+      },
+      formItemProps: {
+        rules: [
+          {
+            required: true,
+            message: '类型为必填项',
           },
         ],
       },
       //valueType: 'textarea',
     },
     {
-      title: '电话',
-      dataIndex: 'phone',
+      title: 'affiliation',
+      dataIndex: 'affiliation',
+      hideInForm: true,
+      hideInTable: true,
       formItemProps: {
         rules: [
           {
-            required: true,
-            message: '邮箱为必填项',
+            required: false,
+            // message: '邮箱为必填项',
           },
         ],
       },
+      //valueType: 'textarea',
     },
-    {
-      title: '描述',
-      dataIndex: 'remark',
-      valueType: 'textarea',
-    },
-    
-//{title: '服务调用次数', dataIndex: 'callNo', sorter: true, hideInForm: true, renderText: (val) => `${val} 万`,},
     {
       title: '状态',
       dataIndex: 'state',
@@ -210,32 +284,13 @@ const TableList = () => {
         2: {
           text: '已上线',
           status: 'Success',
-        },
-        3: {
-          text: '异常',
-          status: 'Error',
-        },
+        }
       },
     },
     {
-      title: '上次登陆时间',
-      dataIndex: 'updatedAt',
-      sorter: true,
-      valueType: 'dateTime',
-      hideInForm: true,
-      renderFormItem: (item, { defaultRender, ...rest }, form) => {
-        const status = form.getFieldValue('status');
-
-        if (`${status}` === '0') {
-          return false;
-        }
-
-        if (`${status}` === '3') {
-          return <Input {...rest} placeholder="请输入异常原因！" />;
-        }
-
-        return defaultRender(item);
-      },
+      title: '备注',
+      dataIndex: 'remark',
+      valueType: 'textarea',
     },
     {
       title: '操作',
@@ -246,8 +301,7 @@ const TableList = () => {
           <a
             onClick={() => {
               handleUpdateModalVisible(true);
-              console.info('record',record)
-              setStepFormValues(record);
+              setStepFormValues({caid:caid});
             }}
           >
             编辑
@@ -259,23 +313,29 @@ const TableList = () => {
     },
   ];
   return (
-    <PageContainer>
+    <PageContainer content={content} extraContent={extraContent}>
       <ProTable
-        headerTitle="查询表格"
+        headerTitle="CA的用户"
         actionRef={actionRef}
         rowKey="key"
-        search={{
-          labelWidth: 120,
-        }}
+        search={false}
+        //search={{ labelWidth: 120, }}
         toolBarRender={() => [
           <Button type="primary" onClick={() => {
             handleModalVisible(true);
+          }}>
+            <IssuesCloseOutlined />重新Enroll
+          </Button>,
+          <Button type="primary" onClick={() => {
+
+            handleModalVisible(true);
+            console.info('新建====',caid)
             setTitle('新建用户');
           }}>
             <PlusOutlined /> 新建
           </Button>,
         ]}
-        request={(params, sorter, filter) => queryUser({ ...params, sorter, filter })}
+        request={(params, sorter, filter) => queryCaUser({ ...params, sorter, filter, "ca_id":caid })}
         
         columns={columns}
         rowSelection={{
@@ -318,8 +378,8 @@ const TableList = () => {
         <ProTable
           onSubmit={async (value) => {
 
-            console.log('value====',value);
-            const success = await handleAdd(value);
+            console.log('value====',value,caid);
+            const success = await handleAdd({...value,ca_id:caid});
 
             if (success) {
               handleModalVisible(false);
@@ -332,7 +392,14 @@ const TableList = () => {
           rowKey="key"
           type="form"
           columns={columns}
+          initialValues={{
+            caid: 3,
+            
+          }}
+          // values={{caid:"1",enroll_id:321}}
+          // values={createFormValues}
         />
+        
       </CreateForm>
       {stepFormValues && Object.keys(stepFormValues).length ? (
         <UpdateForm

@@ -1,0 +1,33 @@
+2021-03-02 04:29:56,398 INFO 12572 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86403607ms at 2021-03-03 04:30:00.005
+2021-03-02 04:29:56,393 INFO 12573 [Job#16146305963923373017724943501] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-03-02 04:29:56,401 INFO 12573 [Job#16146305963923373017724943501] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 8ms. 
+2021-03-02 14:37:53,543 INFO 15166 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-02 14:37:53,543 INFO 15166 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-02 14:37:53,543 INFO 15166 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-02 14:38:51,178 INFO 15192 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-02 14:38:51,178 INFO 15192 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-02 14:38:51,179 INFO 15192 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-02 14:40:22,209 INFO 15229 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-02 14:40:22,209 INFO 15229 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-02 14:40:22,209 INFO 15229 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-02 14:40:59,005 INFO 15267 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-02 14:40:59,005 INFO 15267 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-02 14:40:59,005 INFO 15267 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-02 14:42:30,469 INFO 15285 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-02 14:42:30,469 INFO 15285 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-02 14:42:30,469 INFO 15285 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-02 14:46:17,103 INFO 15308 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-02 14:46:17,103 INFO 15308 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-02 14:46:17,103 INFO 15308 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-02 17:08:08,166 INFO 15782 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-02 17:08:08,166 INFO 15782 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-02 17:08:08,166 INFO 15782 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-02 17:08:08,501 INFO 15781 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40911502ms at 2021-03-03 04:30:00.002
+2021-03-02 17:08:08,501 INFO 15781 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24711499ms at 2021-03-03 00:00:00.000
+2021-03-02 17:08:08,501 INFO 15781 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24712499ms at 2021-03-03 00:00:01.000
+2021-03-03 00:00:00,739 INFO 15782 [Job#16147008006844075042800423081] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-03-03 00:00:00,708 INFO 15781 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399303ms at 2021-03-04 00:00:00.010
+2021-03-03 00:00:01,655 INFO 15781 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399350ms at 2021-03-04 00:00:01.005
+2021-03-03 00:00:00,760 INFO 15782 [Job#16147008006844075042800423081] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 18ms. 
+2021-03-03 00:00:01,651 INFO 15782 [Job#16147008016504075052435877821] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-03-03 00:00:01,659 INFO 15782 [Job#16147008016504075052435877821] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 8ms. 

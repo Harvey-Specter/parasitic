@@ -1,4 +1,4 @@
-import { DownOutlined, PlusOutlined } from '@ant-design/icons';
+import { DownOutlined, PlusOutlined,IssuesCloseOutlined } from '@ant-design/icons';
 import { Menu,Button, Divider, message, Input, Drawer ,Dropdown,Modal} from 'antd';
 import React, { useState, useRef } from 'react';
 import { PageContainer, FooterToolbar } from '@ant-design/pro-layout';
@@ -6,6 +6,7 @@ import ProTable from '@ant-design/pro-table';
 import ProDescriptions from '@ant-design/pro-descriptions';
 import CreateForm from './components/CreateForm';
 import UpdateForm from './components/UpdateForm';
+import styles from './style.less';
 import { queryUser, updateUser, addUser, removeUser ,cancelUser} from './service';
 /**
  * 添加节点
@@ -92,6 +93,38 @@ const handleCancel = async (selectedRows) => {
 };
 
 const TableList = () => {
+  console.log('param====index===',props.match.caid);
+  const content = (
+    <div className={styles.pageHeaderContent}>
+      <p>
+        段落示意：蚂蚁金服务设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，
+        提供跨越设计与开发的体验解决方案。
+      </p>
+      <div className={styles.contentLink}>
+        <a>
+          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/MjEImQtenlyueSmVEfUD.svg" />{' '}
+          快速开始
+        </a>
+        <a>
+          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/NbuDUAuBlIApFuDvWiND.svg" />{' '}
+          产品简介
+        </a>
+        <a>
+          <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/ohOEPSYdDTNnyMbGuyLb.svg" />{' '}
+          产品文档
+        </a>
+      </div>
+    </div>
+  );
+  
+  const extraContent = (
+    <div className={styles.extraImg}>
+      <img
+        alt="这是一个标题"
+        src="https://gw.alipayobjects.com/zos/rmsportal/RzwpdLnhmvDJToTdfDPe.png"
+      />
+    </div>
+  );
   const [createModalVisible, handleModalVisible] = useState(false);
   const deleteItem = async (delFlag,selectedRowsState) => {
     if(delFlag=='1')await handleRemove(selectedRowsState);
@@ -246,7 +279,6 @@ const TableList = () => {
           <a
             onClick={() => {
               handleUpdateModalVisible(true);
-              console.info('record',record)
               setStepFormValues(record);
             }}
           >
@@ -259,15 +291,21 @@ const TableList = () => {
     },
   ];
   return (
-    <PageContainer>
+    <PageContainer content={content} extraContent={extraContent}>
       <ProTable
-        headerTitle="查询表格"
+        headerTitle="CA的用户"
         actionRef={actionRef}
         rowKey="key"
         search={{
           labelWidth: 120,
         }}
         toolBarRender={() => [
+          <Button type="primary" onClick={() => {
+            handleModalVisible(true);
+            //setTitle('新建用户');
+          }}>
+            <IssuesCloseOutlined />重新Enroll
+          </Button>,
           <Button type="primary" onClick={() => {
             handleModalVisible(true);
             setTitle('新建用户');

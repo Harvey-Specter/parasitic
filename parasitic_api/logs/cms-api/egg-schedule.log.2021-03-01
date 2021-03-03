@@ -1,0 +1,12 @@
+2021-03-01 19:01:48,245 INFO 12573 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-01 19:01:48,245 INFO 12573 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-01 19:01:48,245 INFO 12573 [egg-schedule]: register schedule /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-01 19:01:48,643 INFO 12572 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34091360ms at 2021-03-02 04:30:00.003
+2021-03-01 19:01:48,643 INFO 12572 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 17891357ms at 2021-03-02 00:00:00.000
+2021-03-01 19:01:48,644 INFO 12572 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 17892357ms at 2021-03-02 00:00:01.001
+2021-03-01 23:59:56,020 INFO 12572 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86403987ms at 2021-03-03 00:00:00.007
+2021-03-01 23:59:56,031 INFO 12573 [Job#16146143960033211017757080661] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-03-01 23:59:56,046 INFO 12573 [Job#16146143960033211017757080661] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 13ms. 
+2021-03-01 23:59:56,993 INFO 12573 [Job#16146143969923211027632733771] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-03-01 23:59:57,001 INFO 12573 [Job#16146143969923211027632733771] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 8ms. 
+2021-03-01 23:59:56,996 INFO 12572 [Timer] /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86404008ms at 2021-03-03 00:00:01.004

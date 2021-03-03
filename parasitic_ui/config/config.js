@@ -174,6 +174,13 @@ export default defineConfig({
                   component: './list/user',
                 },
                 {
+                  hideInMenu:true,
+                  name: 'causer',
+                  icon: 'smile',
+                  path: '/list/causer/:caid',
+                  component: './list/causer/[caid]',
+                },
+                {
                   name: 'table-list',
                   icon: 'smile',
                   path: '/list/table-list',

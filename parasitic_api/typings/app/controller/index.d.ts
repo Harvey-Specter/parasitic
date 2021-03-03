@@ -4,6 +4,7 @@
 import 'egg';
 import ExportBase = require('../../../app/controller/base');
 import ExportCa = require('../../../app/controller/ca');
+import ExportCaUser = require('../../../app/controller/caUser');
 import ExportHome = require('../../../app/controller/home');
 import ExportIndex = require('../../../app/controller/index');
 import ExportResource = require('../../../app/controller/resource');
@@ -16,6 +17,7 @@ declare module 'egg' {
   interface IController {
     base: ExportBase;
     ca: ExportCa;
+    caUser: ExportCaUser;
     home: ExportHome;
     index: ExportIndex;
     resource: ExportResource;

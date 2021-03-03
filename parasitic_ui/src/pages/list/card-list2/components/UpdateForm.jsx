@@ -128,7 +128,7 @@ const UpdateForm = (props) => {
       <><Paragraph>
         <pre>{blockContent}</pre></Paragraph>
         
-        <FormItem name = "create_type" label="新建方式" 
+        <FormItem name = "createType" label="新建方式" 
         rules={[
           {
             required: true,

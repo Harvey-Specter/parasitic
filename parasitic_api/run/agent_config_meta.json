@@ -1,0 +1,306 @@
+{
+  "keys": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+  "middleware": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+  "security": {
+    "csrf": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+    "domainWhiteList": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+    "protocolWhiteList": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "credentials": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js"
+  },
+  "JWT_SECRET": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+      "port": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+      "user": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+      "password": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js",
+      "database": "/Users/lihong/gitrep/parasitic/parasitic_api/config/config.default.js"
+    },
+    "default": {
+      "database": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-mysql/config/config.default.js"
+    },
+    "app": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-mysql/config/config.default.js",
+    "agent": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-mysql/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "name": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "version": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "description": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "private": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "svg-captcha": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "stop": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "dev": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "debug": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "test": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "cov": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "lint": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "ci": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "autod": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "url": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "license": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "env": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "level": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "port": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg/config/config.default.js"
+}

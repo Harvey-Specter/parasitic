@@ -1,0 +1,10 @@
+2021-03-01 19:01:47,347 INFO 12572 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-03-01 19:01:47,355 INFO 12572 [egg:core] dump config after load, 4ms
+2021-03-01 19:01:47,402 INFO 12572 [egg-watcher] Start watching: ["/Users/lihong/gitrep/parasitic/parasitic_api/app","/Users/lihong/gitrep/parasitic/parasitic_api/config","/Users/lihong/gitrep/parasitic/parasitic_api/mocks","/Users/lihong/gitrep/parasitic/parasitic_api/mocks_proxy","/Users/lihong/gitrep/parasitic/parasitic_api/app.js"]
+2021-03-01 19:01:47,402 INFO 12572 [egg-watcher] Start watching: "/Users/lihong/gitrep/parasitic/parasitic_api/app"
+2021-03-01 19:01:47,403 INFO 12572 [egg-watcher] Start watching: "/Users/lihong/gitrep/parasitic/parasitic_api/config"
+2021-03-01 19:01:47,403 INFO 12572 [egg-watcher] Start watching: "/Users/lihong/gitrep/parasitic/parasitic_api/mocks"
+2021-03-01 19:01:47,403 INFO 12572 [egg-watcher] Start watching: "/Users/lihong/gitrep/parasitic/parasitic_api/mocks_proxy"
+2021-03-01 19:01:47,403 INFO 12572 [egg-watcher] Start watching: "/Users/lihong/gitrep/parasitic/parasitic_api/app.js"
+2021-03-01 19:01:47,403 INFO 12572 [egg-watcher:agent] watcher start success
+2021-03-01 19:01:47,415 INFO 12572 [egg:core] dump config after ready, 8ms

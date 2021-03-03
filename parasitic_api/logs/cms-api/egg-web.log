@@ -1,0 +1,198 @@
+2021-03-03 00:00:01,665 INFO 15782 [egg-logrotator] app logger reload: got log-reload message
+2021-03-03 04:30:01,081 INFO 15782 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/4b/zjx3wq3d7nvdkd0dbknhvwnh0000gn/T/egg-multipart-tmp/cms-api"
+2021-03-03 04:30:01,086 INFO 15782 [-/127.0.0.1/-/7ms SCHEDULE /__schedule?path=/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-03-03 10:08:18,920 INFO 17513 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 10:08:18,956 INFO 17513 [egg-multipart] stream mode enable
+2021-03-03 10:08:18,956 INFO 17513 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 10:08:19,231 INFO 17513 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 10:08:19,233 INFO 17513 [egg-security] use methodnoallow middleware
+2021-03-03 10:08:19,234 INFO 17513 [egg-security] use noopen middleware
+2021-03-03 10:08:19,235 INFO 17513 [egg-security] use nosniff middleware
+2021-03-03 10:08:19,235 INFO 17513 [egg-security] use xssProtection middleware
+2021-03-03 10:08:19,236 INFO 17513 [egg-security] use xframe middleware
+2021-03-03 10:08:19,237 INFO 17513 [egg-security] use dta middleware
+2021-03-03 10:08:19,237 INFO 17513 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 10:08:19,289 INFO 17513 [egg:core] dump config after load, 9ms
+2021-03-03 10:08:19,307 INFO 17513 [egg-watcher:application] watcher start success
+2021-03-03 10:08:19,310 INFO 17513 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 10:08:19 GMT+0800 (China Standard Time)
+2021-03-03 10:08:19,317 INFO 17513 [egg:core] dump config after ready, 6ms
+2021-03-03 10:09:43,286 INFO 17530 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 10:09:43,319 INFO 17530 [egg-multipart] stream mode enable
+2021-03-03 10:09:43,320 INFO 17530 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 10:09:43,565 INFO 17530 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 10:09:43,567 INFO 17530 [egg-security] use methodnoallow middleware
+2021-03-03 10:09:43,568 INFO 17530 [egg-security] use noopen middleware
+2021-03-03 10:09:43,569 INFO 17530 [egg-security] use nosniff middleware
+2021-03-03 10:09:43,569 INFO 17530 [egg-security] use xssProtection middleware
+2021-03-03 10:09:43,570 INFO 17530 [egg-security] use xframe middleware
+2021-03-03 10:09:43,570 INFO 17530 [egg-security] use dta middleware
+2021-03-03 10:09:43,570 INFO 17530 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 10:09:43,622 INFO 17530 [egg:core] dump config after load, 6ms
+2021-03-03 10:09:43,639 INFO 17530 [egg-watcher:application] watcher start success
+2021-03-03 10:09:43,644 INFO 17530 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 10:09:43 GMT+0800 (China Standard Time)
+2021-03-03 10:09:43,653 INFO 17530 [egg:core] dump config after ready, 7ms
+2021-03-03 10:10:15,054 INFO 17543 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 10:10:15,077 INFO 17543 [egg-multipart] stream mode enable
+2021-03-03 10:10:15,077 INFO 17543 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 10:10:15,194 INFO 17543 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 10:10:15,197 INFO 17543 [egg-security] use methodnoallow middleware
+2021-03-03 10:10:15,197 INFO 17543 [egg-security] use noopen middleware
+2021-03-03 10:10:15,198 INFO 17543 [egg-security] use nosniff middleware
+2021-03-03 10:10:15,198 INFO 17543 [egg-security] use xssProtection middleware
+2021-03-03 10:10:15,198 INFO 17543 [egg-security] use xframe middleware
+2021-03-03 10:10:15,199 INFO 17543 [egg-security] use dta middleware
+2021-03-03 10:10:15,199 INFO 17543 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 10:10:15,255 INFO 17543 [egg:core] dump config after load, 6ms
+2021-03-03 10:10:15,271 INFO 17543 [egg-watcher:application] watcher start success
+2021-03-03 10:10:15,276 INFO 17543 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 10:10:15 GMT+0800 (China Standard Time)
+2021-03-03 10:10:15,283 INFO 17543 [egg:core] dump config after ready, 5ms
+2021-03-03 10:16:48,552 INFO 17609 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 10:16:48,585 INFO 17609 [egg-multipart] stream mode enable
+2021-03-03 10:16:48,585 INFO 17609 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 10:16:48,863 INFO 17609 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 10:16:48,865 INFO 17609 [egg-security] use methodnoallow middleware
+2021-03-03 10:16:48,866 INFO 17609 [egg-security] use noopen middleware
+2021-03-03 10:16:48,866 INFO 17609 [egg-security] use nosniff middleware
+2021-03-03 10:16:48,867 INFO 17609 [egg-security] use xssProtection middleware
+2021-03-03 10:16:48,868 INFO 17609 [egg-security] use xframe middleware
+2021-03-03 10:16:48,869 INFO 17609 [egg-security] use dta middleware
+2021-03-03 10:16:48,869 INFO 17609 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 10:16:48,922 INFO 17609 [egg:core] dump config after load, 8ms
+2021-03-03 10:16:48,941 INFO 17609 [egg-watcher:application] watcher start success
+2021-03-03 10:16:48,946 INFO 17609 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 10:16:48 GMT+0800 (China Standard Time)
+2021-03-03 10:16:48,954 INFO 17609 [egg:core] dump config after ready, 6ms
+2021-03-03 10:20:54,021 INFO 17629 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 10:20:54,057 INFO 17629 [egg-multipart] stream mode enable
+2021-03-03 10:20:54,057 INFO 17629 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 10:20:54,327 INFO 17629 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 10:20:54,330 INFO 17629 [egg-security] use methodnoallow middleware
+2021-03-03 10:20:54,331 INFO 17629 [egg-security] use noopen middleware
+2021-03-03 10:20:54,332 INFO 17629 [egg-security] use nosniff middleware
+2021-03-03 10:20:54,333 INFO 17629 [egg-security] use xssProtection middleware
+2021-03-03 10:20:54,334 INFO 17629 [egg-security] use xframe middleware
+2021-03-03 10:20:54,334 INFO 17629 [egg-security] use dta middleware
+2021-03-03 10:20:54,335 INFO 17629 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 10:20:54,391 INFO 17629 [egg:core] dump config after load, 6ms
+2021-03-03 10:20:54,409 INFO 17629 [egg-watcher:application] watcher start success
+2021-03-03 10:20:54,415 INFO 17629 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 10:20:54 GMT+0800 (China Standard Time)
+2021-03-03 10:20:54,423 INFO 17629 [egg:core] dump config after ready, 6ms
+2021-03-03 10:21:15,416 INFO 17652 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 10:21:15,444 INFO 17652 [egg-multipart] stream mode enable
+2021-03-03 10:21:15,445 INFO 17652 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 10:21:15,715 INFO 17652 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 10:21:15,717 INFO 17652 [egg-security] use methodnoallow middleware
+2021-03-03 10:21:15,719 INFO 17652 [egg-security] use noopen middleware
+2021-03-03 10:21:15,721 INFO 17652 [egg-security] use nosniff middleware
+2021-03-03 10:21:15,721 INFO 17652 [egg-security] use xssProtection middleware
+2021-03-03 10:21:15,722 INFO 17652 [egg-security] use xframe middleware
+2021-03-03 10:21:15,723 INFO 17652 [egg-security] use dta middleware
+2021-03-03 10:21:15,723 INFO 17652 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 10:21:15,806 INFO 17652 [egg:core] dump config after load, 6ms
+2021-03-03 10:21:15,830 INFO 17652 [egg-watcher:application] watcher start success
+2021-03-03 10:21:15,839 INFO 17652 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 10:21:15 GMT+0800 (China Standard Time)
+2021-03-03 10:21:15,853 INFO 17652 [egg:core] dump config after ready, 10ms
+2021-03-03 10:56:27,904 INFO 17739 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 10:56:27,937 INFO 17739 [egg-multipart] stream mode enable
+2021-03-03 10:56:27,937 INFO 17739 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 10:56:28,216 INFO 17739 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 10:56:28,219 INFO 17739 [egg-security] use methodnoallow middleware
+2021-03-03 10:56:28,220 INFO 17739 [egg-security] use noopen middleware
+2021-03-03 10:56:28,220 INFO 17739 [egg-security] use nosniff middleware
+2021-03-03 10:56:28,221 INFO 17739 [egg-security] use xssProtection middleware
+2021-03-03 10:56:28,221 INFO 17739 [egg-security] use xframe middleware
+2021-03-03 10:56:28,222 INFO 17739 [egg-security] use dta middleware
+2021-03-03 10:56:28,222 INFO 17739 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 10:56:28,278 INFO 17739 [egg:core] dump config after load, 8ms
+2021-03-03 10:56:28,296 INFO 17739 [egg-watcher:application] watcher start success
+2021-03-03 10:56:28,301 INFO 17739 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 10:56:28 GMT+0800 (China Standard Time)
+2021-03-03 10:56:28,310 INFO 17739 [egg:core] dump config after ready, 7ms
+2021-03-03 11:11:51,728 INFO 17834 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 11:11:51,765 INFO 17834 [egg-multipart] stream mode enable
+2021-03-03 11:11:51,766 INFO 17834 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 11:11:52,088 INFO 17834 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 11:11:52,091 INFO 17834 [egg-security] use methodnoallow middleware
+2021-03-03 11:11:52,092 INFO 17834 [egg-security] use noopen middleware
+2021-03-03 11:11:52,093 INFO 17834 [egg-security] use nosniff middleware
+2021-03-03 11:11:52,094 INFO 17834 [egg-security] use xssProtection middleware
+2021-03-03 11:11:52,094 INFO 17834 [egg-security] use xframe middleware
+2021-03-03 11:11:52,095 INFO 17834 [egg-security] use dta middleware
+2021-03-03 11:11:52,095 INFO 17834 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 11:11:52,156 INFO 17834 [egg:core] dump config after load, 8ms
+2021-03-03 11:11:52,176 INFO 17834 [egg-watcher:application] watcher start success
+2021-03-03 11:11:52,183 INFO 17834 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 11:11:52 GMT+0800 (China Standard Time)
+2021-03-03 11:11:52,191 INFO 17834 [egg:core] dump config after ready, 6ms
+2021-03-03 11:19:10,160 INFO 17947 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 11:19:10,195 INFO 17947 [egg-multipart] stream mode enable
+2021-03-03 11:19:10,195 INFO 17947 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 11:19:10,453 INFO 17947 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 11:19:10,456 INFO 17947 [egg-security] use methodnoallow middleware
+2021-03-03 11:19:10,457 INFO 17947 [egg-security] use noopen middleware
+2021-03-03 11:19:10,458 INFO 17947 [egg-security] use nosniff middleware
+2021-03-03 11:19:10,459 INFO 17947 [egg-security] use xssProtection middleware
+2021-03-03 11:19:10,459 INFO 17947 [egg-security] use xframe middleware
+2021-03-03 11:19:10,460 INFO 17947 [egg-security] use dta middleware
+2021-03-03 11:19:10,460 INFO 17947 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 11:19:10,507 INFO 17947 [egg:core] dump config after load, 7ms
+2021-03-03 11:19:10,529 INFO 17947 [egg-watcher:application] watcher start success
+2021-03-03 11:19:10,534 INFO 17947 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 11:19:10 GMT+0800 (China Standard Time)
+2021-03-03 11:19:10,544 INFO 17947 [egg:core] dump config after ready, 8ms
+2021-03-03 11:19:13,069 INFO 17954 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 11:19:13,102 INFO 17954 [egg-multipart] stream mode enable
+2021-03-03 11:19:13,103 INFO 17954 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 11:19:13,260 INFO 17954 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 11:19:13,262 INFO 17954 [egg-security] use methodnoallow middleware
+2021-03-03 11:19:13,262 INFO 17954 [egg-security] use noopen middleware
+2021-03-03 11:19:13,263 INFO 17954 [egg-security] use nosniff middleware
+2021-03-03 11:19:13,263 INFO 17954 [egg-security] use xssProtection middleware
+2021-03-03 11:19:13,264 INFO 17954 [egg-security] use xframe middleware
+2021-03-03 11:19:13,264 INFO 17954 [egg-security] use dta middleware
+2021-03-03 11:19:13,264 INFO 17954 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 11:19:13,309 INFO 17954 [egg:core] dump config after load, 8ms
+2021-03-03 11:19:13,330 INFO 17954 [egg-watcher:application] watcher start success
+2021-03-03 11:19:13,337 INFO 17954 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 11:19:13 GMT+0800 (China Standard Time)
+2021-03-03 11:19:13,350 INFO 17954 [egg:core] dump config after ready, 8ms
+2021-03-03 11:32:23,501 INFO 18059 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 11:32:23,531 INFO 18059 [egg-multipart] stream mode enable
+2021-03-03 11:32:23,531 INFO 18059 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 11:32:23,801 INFO 18059 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 11:32:23,804 INFO 18059 [egg-security] use methodnoallow middleware
+2021-03-03 11:32:23,804 INFO 18059 [egg-security] use noopen middleware
+2021-03-03 11:32:23,806 INFO 18059 [egg-security] use nosniff middleware
+2021-03-03 11:32:23,807 INFO 18059 [egg-security] use xssProtection middleware
+2021-03-03 11:32:23,808 INFO 18059 [egg-security] use xframe middleware
+2021-03-03 11:32:23,808 INFO 18059 [egg-security] use dta middleware
+2021-03-03 11:32:23,808 INFO 18059 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 11:32:23,861 INFO 18059 [egg:core] dump config after load, 4ms
+2021-03-03 11:32:23,879 INFO 18059 [egg-watcher:application] watcher start success
+2021-03-03 11:32:23,885 INFO 18059 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 11:32:23 GMT+0800 (China Standard Time)
+2021-03-03 11:32:23,892 INFO 18059 [egg:core] dump config after ready, 5ms
+2021-03-03 11:32:53,921 INFO 18074 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 11:32:53,998 INFO 18074 [egg-multipart] stream mode enable
+2021-03-03 11:32:53,999 INFO 18074 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 11:32:54,274 INFO 18074 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 11:32:54,277 INFO 18074 [egg-security] use methodnoallow middleware
+2021-03-03 11:32:54,277 INFO 18074 [egg-security] use noopen middleware
+2021-03-03 11:32:54,278 INFO 18074 [egg-security] use nosniff middleware
+2021-03-03 11:32:54,279 INFO 18074 [egg-security] use xssProtection middleware
+2021-03-03 11:32:54,280 INFO 18074 [egg-security] use xframe middleware
+2021-03-03 11:32:54,281 INFO 18074 [egg-security] use dta middleware
+2021-03-03 11:32:54,281 INFO 18074 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 11:32:54,333 INFO 18074 [egg:core] dump config after load, 5ms
+2021-03-03 11:32:54,351 INFO 18074 [egg-watcher:application] watcher start success
+2021-03-03 11:32:54,357 INFO 18074 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 11:32:54 GMT+0800 (China Standard Time)
+2021-03-03 11:32:54,364 INFO 18074 [egg:core] dump config after ready, 5ms
+2021-03-03 11:33:54,168 INFO 18088 [egg:logger] init all loggers with options: {"dir":"/Users/lihong/gitrep/parasitic/parasitic_api/logs/cms-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cms-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-03 11:33:54,200 INFO 18088 [egg-multipart] stream mode enable
+2021-03-03 11:33:54,201 INFO 18088 [egg-mysql] connecting root@localhost:3306/parasitic
+2021-03-03 11:33:54,512 INFO 18088 [egg-static] starting static serve /public/ -> /Users/lihong/gitrep/parasitic/parasitic_api/app/public
+2021-03-03 11:33:54,515 INFO 18088 [egg-security] use methodnoallow middleware
+2021-03-03 11:33:54,516 INFO 18088 [egg-security] use noopen middleware
+2021-03-03 11:33:54,517 INFO 18088 [egg-security] use nosniff middleware
+2021-03-03 11:33:54,518 INFO 18088 [egg-security] use xssProtection middleware
+2021-03-03 11:33:54,518 INFO 18088 [egg-security] use xframe middleware
+2021-03-03 11:33:54,519 INFO 18088 [egg-security] use dta middleware
+2021-03-03 11:33:54,519 INFO 18088 [egg-security] compose 6 middlewares into one security middleware
+2021-03-03 11:33:54,566 INFO 18088 [egg:core] dump config after load, 6ms
+2021-03-03 11:33:54,592 INFO 18088 [egg-watcher:application] watcher start success
+2021-03-03 11:33:54,594 INFO 18088 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 03 2021 11:33:54 GMT+0800 (China Standard Time)
+2021-03-03 11:33:54,612 INFO 18088 [egg:core] dump config after ready, 16ms

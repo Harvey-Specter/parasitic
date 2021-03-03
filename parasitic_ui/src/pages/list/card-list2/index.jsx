@@ -7,6 +7,7 @@ import { connect } from 'umi';
 import OperationModal from './components/OperationModal';
 import UpdateForm from './components/UpdateForm';
 import styles from './style.less';
+import { history } from 'umi';
 const { Paragraph } = Typography;
 
 export const CardList = (props) => {
@@ -88,6 +89,10 @@ export const CardList = (props) => {
     setCurrent(item);
   };
 
+  const goCADetail = (item) => {
+    //console.info(item);return false;
+    history.push(`/list/causer/`+item.id);
+  };
   const setAddBtnblur = () => {
     if (addBtn.current) {
       // eslint-disable-next-line react/no-find-dom-node
@@ -162,8 +167,10 @@ export const CardList = (props) => {
               return (
                 <List.Item key={item.id}>
                   <Card
+                    
                     hoverable
                     className={styles.card}
+
 actions={[<a key="option1" key="edit"
                       onClick={(e) => {
                         e.preventDefault();
@@ -176,11 +183,12 @@ actions={[<a key="option1" key="edit"
                     <Card.Meta
                       title={
                         <span>
-                      <a>{item.name}</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                      <a onClick={(e) => { e.preventDefault(); goCADetail(item); }}>{item.name}
                       <Tag style={{float:'right'}}
-                      icon={<CheckCircleOutlined />} color="success">运行中</Tag></span>
+                      icon={<CheckCircleOutlined />} color="success">运行中</Tag></a> </span>
                     }
                       description={
+                        <a onClick={(e) => { e.preventDefault(); goCADetail(item); }}>
                         <Paragraph
                           className={styles.item}
                           ellipsis={{
@@ -188,7 +196,7 @@ actions={[<a key="option1" key="edit"
                           }}
                         >
                           {item.remark}
-                        </Paragraph>
+                        </Paragraph></a>
                       }
                     />
                   </Card>
