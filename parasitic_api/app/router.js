@@ -9,6 +9,8 @@ module.exports = app => {
   router.resources('caUser','/api/caUser',controller.caUser);
   router.resources('ca','/api/ca',controller.ca);
   router.resources('user','/api/user',controller.user);
+  router.resources('org','/api/org',controller.org);
+  router.resources('peer','/api/peer',controller.peer);
   router.resources('role','/api/role',controller.role);
   router.resources('resource','/api/resource',controller.resource);
   router.resources('roleResource','/api/roleResource',controller.roleResource);

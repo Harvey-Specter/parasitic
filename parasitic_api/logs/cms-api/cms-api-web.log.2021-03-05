@@ -1,0 +1,330 @@
+2021-03-05 23:00:14,762 ERROR 1980 [-/127.0.0.1/-/7ms GET /api/caUser] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:07:26,710 ERROR 1980 [-/127.0.0.1/-/2ms GET /api/caUser] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:11:14,072 ERROR 1980 [-/127.0.0.1/-/4ms GET /api/caUser] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:13:17,881 ERROR 1980 [-/127.0.0.1/-/4ms GET /api/caUser] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:14:24,524 ERROR 1980 [-/127.0.0.1/-/2ms GET /api/caUser] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:17:31,387 ERROR 1980 [-/127.0.0.1/-/2ms GET /api/caUser] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:18:22,423 ERROR 1980 [-/127.0.0.1/-/2ms GET /api/caUser?0=%7B%22id%22%3A1%2C%22ca_id%22%3A1%2C%22name%22%3A%2222a22%22%2C%22enroll_id%22%3A%22admin%22%2C%22secret%22%3A%22ant.design%22%2C%22state%22%3A1%2C%22type%22%3A%22client%22%2C%22max_enroll%22%3A0%2C%22attributes%22%3Anull%2C%22create_time%22%3A%222021-03-03T03%3A01%3A04.000Z%22%2C%22create_user%22%3Anull%2C%22modify_time%22%3A%222021-03-03T03%3A01%3A04.000Z%22%2C%22modify_user%22%3Anull%2C%22remark%22%3A%22rrrr%22%7D&1=%7B%22id%22%3A2%2C%22ca_id%22%3A1%2C%22name%22%3A%22eee%22%2C%22enroll_id%22%3A%22admin2%22%2C%22secret%22%3A%22ant.design%22%2C%22state%22%3A1%2C%22type%22%3A%22peer%22%2C%22max_enroll%22%3A0%2C%22attributes%22%3Anull%2C%22create_time%22%3A%222021-03-03T03%3A34%3A36.000Z%22%2C%22create_user%22%3Anull%2C%22modify_time%22%3A%222021-03-03T03%3A34%3A36.000Z%22%2C%22modify_user%22%3Anull%2C%22remark%22%3A%22fff%22%7D&2=%7B%22id%22%3A3%2C%22ca_id%22%3A1%2C%22name%22%3A%223333%22%2C%22enroll_id%22%3A%22admin33%22%2C%22secret%22%3A%22ant.design%22%2C%22state%22%3A1%2C%22type%22%3A%22admin%22%2C%22max_enroll%22%3A0%2C%22attributes%22%3Anull%2C%22create_time%22%3A%222021-03-03T05%3A23%3A56.000Z%22%2C%22create_user%22%3Anull%2C%22modify_time%22%3A%222021-03-03T05%3A23%3A56.000Z%22%2C%22modify_user%22%3Anull%2C%22remark%22%3A%22333%22%7D] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:18:56,391 ERROR 1980 [-/127.0.0.1/-/10ms GET /api/caUser?0=%7B%22id%22%3A1%2C%22ca_id%22%3A1%2C%22name%22%3A%2222a22%22%2C%22enroll_id%22%3A%22admin%22%2C%22secret%22%3A%22ant.design%22%2C%22state%22%3A1%2C%22type%22%3A%22client%22%2C%22max_enroll%22%3A0%2C%22attributes%22%3Anull%2C%22create_time%22%3A%222021-03-03T03%3A01%3A04.000Z%22%2C%22create_user%22%3Anull%2C%22modify_time%22%3A%222021-03-03T03%3A01%3A04.000Z%22%2C%22modify_user%22%3Anull%2C%22remark%22%3A%22rrrr%22%7D&1=%7B%22id%22%3A2%2C%22ca_id%22%3A1%2C%22name%22%3A%22eee%22%2C%22enroll_id%22%3A%22admin2%22%2C%22secret%22%3A%22ant.design%22%2C%22state%22%3A1%2C%22type%22%3A%22peer%22%2C%22max_enroll%22%3A0%2C%22attributes%22%3Anull%2C%22create_time%22%3A%222021-03-03T03%3A34%3A36.000Z%22%2C%22create_user%22%3Anull%2C%22modify_time%22%3A%222021-03-03T03%3A34%3A36.000Z%22%2C%22modify_user%22%3Anull%2C%22remark%22%3A%22fff%22%7D&2=%7B%22id%22%3A3%2C%22ca_id%22%3A1%2C%22name%22%3A%223333%22%2C%22enroll_id%22%3A%22admin33%22%2C%22secret%22%3A%22ant.design%22%2C%22state%22%3A1%2C%22type%22%3A%22admin%22%2C%22max_enroll%22%3A0%2C%22attributes%22%3Anull%2C%22create_time%22%3A%222021-03-03T05%3A23%3A56.000Z%22%2C%22create_user%22%3Anull%2C%22modify_time%22%3A%222021-03-03T05%3A23%3A56.000Z%22%2C%22modify_user%22%3Anull%2C%22remark%22%3A%22333%22%7D] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:20:54,513 ERROR 1980 [-/127.0.0.1/-/1ms GET /api/caUser?ca_id=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+
+2021-03-05 23:29:07,413 ERROR 1980 [-/127.0.0.1/-/3ms GET /api/caUser?ca_id=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:65:19)
+    at /Users/lihong/gitrep/parasitic/parasitic_api/node_modules/co/index.js:54:5
+    sql: SELECT * FROM ca_user where ca_id=undefined     limit 0,1000
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM ca_user where ca_id=undefined     limit 0,1000"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1980
+hostname: lihongdeMacBook-Air.local
+

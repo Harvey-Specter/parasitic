@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect,useState } from 'react';
 import { connect } from 'umi';
 import { Typography,Form, Button, DatePicker, Input, Modal, Radio, Select, Steps,Checkbox } from 'antd';
 const FormItem = Form.Item;
 const formLayout = {
-  labelCol: {
-    span: 7,
-  },
-  wrapperCol: {
-    span: 13,
-  },
+  labelCol: {    span: 7,  },
+  wrapperCol: {  span: 13,  },
 };
 const radioStyle = {
   display: 'block',
@@ -27,18 +23,29 @@ const UpdateForm = (props) => {
     // remark : props.values.remark,
   });
   const {
-    dispatch,
-    caList: { list },
-  } = props;
-  const { value } = useState();
-  //const [currentStep, setCurrentStep] = useState(0);
-  const [form] = Form.useForm();
-  const {
     onSubmit: handleUpdate,
     onCancel: handleUpdateModalVisible,
     updateModalVisible,
     values,
+    dispatch,
+    caList: { list ,ilist},
   } = props;
+  useEffect(() => {
+    dispatch({
+      type: 'caList/fetch',
+      payload: {
+      },
+    });
+  }, [1]);
+  const { value } = useState();
+  //const [currentStep, setCurrentStep] = useState(0);
+  const [form] = Form.useForm();
+  // const {
+  //   onSubmit: handleUpdate,
+  //   onCancel: handleUpdateModalVisible,
+  //   updateModalVisible,
+  //   values,
+  // } = props;
 
   const renderContent = () => {
       return (
@@ -74,13 +81,16 @@ const UpdateForm = (props) => {
           rules={[
             {
               required: true,
-              message: '请选择任务负责人',
+              message: '请选择CA服务作为根证书',
             },
           ]}
         >
-          <Select placeholder="请选择">
-            <Select.Option value="付晓晓">付晓晓</Select.Option>
-            <Select.Option value="周毛毛">周毛毛</Select.Option>
+          <Select placeholder="请选择" onSelect={handleCaChange}>
+            {
+              list.map((item,index) => {
+                return <Select.Option value= { item.id } key={index} >{item.name }</Select.Option>
+             })
+            }
           </Select>
         </Form.Item>
 
@@ -95,15 +105,35 @@ const UpdateForm = (props) => {
           ]}
         >
           <Select placeholder="请选择">
-            <Select.Option value="付晓晓">付晓晓</Select.Option>
-            <Select.Option value="周毛毛">周毛毛</Select.Option>
+            
+
+          {ilist && ilist.length ? (
+              ilist.map((item,index) => {
+                return <Select.Option value= { item.id } key={index} >{item.enroll_id }</Select.Option>
+            })
+      ) : null}
+
           </Select>
         </Form.Item>
           
         </>
       );
   };
-
+  const handleNext = async () => {
+    const fieldsValue = await form.validateFields();
+    setFormVals({ ...formVals, ...fieldsValue });
+    handleUpdate({ ...formVals, ...fieldsValue });
+  };
+  const handleCaChange = value => {
+    //setCities(cityData[value]);
+    //setSecondCity(cityData[value][0]);
+    console.info('handleCaChange=====',value)
+    dispatch({
+      type: 'caList/queryIdenListByCaId',
+      payload: { ca_id:value, },
+    });
+    
+  };
   const renderFooter = () => {
       return (
         <>

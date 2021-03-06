@@ -2,12 +2,12 @@ import { addFakeList, queryFakeList, removeFakeList, updateFakeList} from './ser
 const Model = {
   namespace: 'org',
   state: {
-    list: [],
+    olist: [],
   },
   effects: {
     *fetch({ payload }, { call, put }) {
       const response = yield call(queryFakeList, payload);
-      console.log('response===fetch=====',response)
+      console.log('org===fetch=====',response)
       yield put({
         type: 'queryList',
         payload: Array.isArray(response.data) ? response.data : [],
@@ -49,15 +49,15 @@ const Model = {
   },
   reducers: {
     queryList(state, action) {
-      return { ...state, list: action.payload };
+      return { ...state, olist: action.payload };
     },
     appendList(
       state = {
-        list: [],
+        olist: [],
       },
       action,
     ) {
-      return { ...state, list: state.list.concat(action.payload) };
+      return { ...state, olist: state.olist.concat(action.payload) };
     },
   },
 };

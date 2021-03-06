@@ -7,6 +7,7 @@ import ExportCa = require('../../../app/controller/ca');
 import ExportCaUser = require('../../../app/controller/caUser');
 import ExportHome = require('../../../app/controller/home');
 import ExportIndex = require('../../../app/controller/index');
+import ExportOrg = require('../../../app/controller/org');
 import ExportResource = require('../../../app/controller/resource');
 import ExportRole = require('../../../app/controller/role');
 import ExportRoleResource = require('../../../app/controller/roleResource');
@@ -20,6 +21,7 @@ declare module 'egg' {
     caUser: ExportCaUser;
     home: ExportHome;
     index: ExportIndex;
+    org: ExportOrg;
     resource: ExportResource;
     role: ExportRole;
     roleResource: ExportRoleResource;

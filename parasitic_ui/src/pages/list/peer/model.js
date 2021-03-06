@@ -1,6 +1,6 @@
 import { addFakeList, queryFakeList, removeFakeList, updateFakeList, queryIdenList } from './service';
 const Model = {
-  namespace: 'caList',
+  namespace: 'peer',
   state: {
     list: [], ilist:[],
   },

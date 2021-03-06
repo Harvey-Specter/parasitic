@@ -188,6 +188,13 @@ export default defineConfig({
                   component: './list/org',
                 },
                 {
+                  hideInMenu:false,
+                  name: 'peer',
+                  icon: 'smile',
+                  path: '/list/peer',
+                  component: './list/peer',
+                },
+                {
                   name: 'table-list',
                   icon: 'smile',
                   path: '/list/table-list',
@@ -208,8 +215,8 @@ export default defineConfig({
                 {
                   name: 'card-list2',
                   icon: 'smile',
-                  path: '/list/card-list2',
-                  component: './list/card-list2',
+                  path: '/list/ca',
+                  component: './list/ca',
                 },
               ],
             },
